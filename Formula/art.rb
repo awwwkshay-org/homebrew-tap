@@ -4,8 +4,6 @@ class Art < Formula
   version "0.1.0"
   license any_of: ["MIT", "Apache-2.0"]
 
-  depends_on "rust"
-
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/awwwkshay-org/awesome-rust-templates/releases/download/v0.1.0/art-v0.1.0-aarch64-apple-darwin.tar.gz"
